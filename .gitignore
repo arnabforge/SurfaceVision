@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+data/
+
+# Model weights
+models/
+*.pt
+*.pth
+*.onnx
+
+# Training outputs
+runs/
+outputs/
+
+# IDE
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
