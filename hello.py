@@ -1,6 +1,12 @@
-project_name = "SurfaceVision"
-project_type = "Road Pothole Detection"
+from src.config import (
+    PROJECT_NAME,
+    PROJECT_DESCRIPTION,
+    SEVERITY_LEVELS,
+)
 
-print("Welcome to", project_name)
-print("Project:", project_type)
-print("Development has started!")
+print("=" * 40)
+print(PROJECT_NAME)
+print("=" * 40)
+
+print("Project:", PROJECT_DESCRIPTION)
+print("Severity levels:", SEVERITY_LEVELS)
